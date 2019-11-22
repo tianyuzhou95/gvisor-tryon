@@ -15,7 +15,7 @@
 package stack
 
 import (
-	"golang.org/x/time/rate"
+			"github.com/golang/time/rate"
 )
 
 const (

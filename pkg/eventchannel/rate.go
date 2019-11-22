@@ -16,7 +16,7 @@ package eventchannel
 
 import (
 	"github.com/golang/protobuf/proto"
-	"golang.org/x/time/rate"
+	"github.com/golang/time/rate"
 )
 
 // rateLimitedEmitter wraps an emitter and limits events to the given limits.

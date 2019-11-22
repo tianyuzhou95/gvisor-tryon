@@ -25,7 +25,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"golang.org/x/time/rate"
+	"github.com/golang/time/rate"
 	"gvisor.dev/gvisor/pkg/rand"
 	"gvisor.dev/gvisor/pkg/sleep"
 	"gvisor.dev/gvisor/pkg/tcpip"
