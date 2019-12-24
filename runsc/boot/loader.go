@@ -510,11 +510,13 @@ func (l *Loader) run() error {
 			initializePProf()
 		}
 
+		// commented by Tianyu to see if it is seccomp that block the core dump
+		/*
 		// Finally done with all configuration. Setup filters before user code
 		// is loaded.
 		if err := l.installSeccompFilters(); err != nil {
 			return err
-		}
+		}*/
 
 		// Create the FD map, which will set stdin, stdout, and stderr.  If console
 		// is true, then ioctl calls will be passed through to the host fd.
