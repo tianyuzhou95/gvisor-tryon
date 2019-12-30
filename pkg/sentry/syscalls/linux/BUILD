@@ -18,6 +18,7 @@ go_library(
         "sys_file.go",
         "sys_futex.go",
         "sys_getdents.go",
+        "sys_hostsync.go",
         "sys_identity.go",
         "sys_inotify.go",
         "sys_lseek.go",

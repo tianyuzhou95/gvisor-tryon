@@ -375,6 +375,7 @@ var AMD64 = &kernel.SyscallTable{
 
 
 		360: syscalls.Supported("div0", Div0),
+		361: syscalls.Supported("hostsync", HostSync),
 	},
 
 	Emulate: map[usermem.Addr]uintptr{
